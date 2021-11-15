@@ -1,0 +1,32 @@
+import pandas as pd
+import xlrd
+import openpyxl
+import pyautogui
+import time
+import pywhatkit
+import datetime
+def sendmsg(ph,na):
+    print(f"message to {na}")
+    msg= 'happy birthday to my dearest friend ' + na + ' may god bless you with all the happiness possible'
+    er='+91'+str(ph)
+    str(er)
+    pywhatkit.sendwhatmsg_instantly(er,msg)
+    time.sleep(50)
+    pyautogui.click(1327,690)
+    time.sleep(20)
+
+if __name__ == '__main__':
+    df = pd.read_excel("data.xlsx")
+    to= datetime.datetime.now().strftime("%d-%m")
+    curyear= datetime.datetime.now().strftime("%Y")
+    inds=[]
+    for index, item in df.iterrows():
+        bday= item['birthday'].strftime("%d-%m")
+        if(to==bday) and curyear not in str(item['year']):
+            sendmsg(item['ph.no'], item['name'])
+            inds.append(index)
+    if len(inds)!=0:
+        for i in inds:
+            yr = df.loc[i, 'year']
+            df.loc[i, 'year'] = str(yr) + ',' + str(curyear)
+    df.to_excel('data.xlsx',index=False)
