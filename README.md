@@ -4,48 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>README - WhatsApp Auto-Wisher 🎉🎂</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-image: url('https://via.placeholder.com/1200x800'); /* Replace with your background image URL */
-            background-size: cover;
-            background-position: center;
-            color: white;
-            padding: 20px;
-        }
-        
-        h1 {
-            background-image: url('https://via.placeholder.com/1200x300'); /* Replace with a celebratory image URL */
-            background-size: cover;
-            background-position: center;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            color: #fff;
-        }
-
-        h2 {
-            background-color: rgba(0, 0, 0, 0.6);
-            padding: 10px;
-            border-radius: 5px;
-            margin-top: 40px;
-            color: #ffd700;
-        }
-
-        ul, ol, p {
-            background-color: rgba(0, 0, 0, 0.6);
-            padding: 15px;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-
-        code, pre {
-            background-color: rgba(255, 255, 255, 0.2);
-            color: #fff;
-            padding: 10px;
-            border-radius: 5px;
-        }
-    </style>
 </head>
 <body>
 
