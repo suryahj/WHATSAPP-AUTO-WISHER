@@ -36,7 +36,7 @@
 <h2>🚀 Installation</h2>
 <ol>
     <li>📥 Clone the repository:
-        <pre><code>git clone https://github.com/yourusername/whatsapp-auto-wisher.git(https://github.com/suryahj/WHATSAPP-AUTO-WISHER.git)</code></pre>
+        <pre><code>git clone https://github.com/suryahj/WHATSAPP-AUTO-WISHER.git</code></pre>
     </li>
     <li>📦 Install the required dependencies:
         <pre><code>pip install pandas openpyxl pywhatkit pyautogui xlrd</code></pre>
