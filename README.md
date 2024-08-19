@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - WhatsApp Auto-Wisher 🎉🎂</title>
+
 </head>
 <body>
 
@@ -41,7 +41,7 @@
     <li>📦 Install the required dependencies:
         <pre><code>pip install pandas openpyxl pywhatkit pyautogui xlrd</code></pre>
     </li>
-    <li>📑 Add your Excel file (e.g., <code>birthdays.xlsx</code>) to the project directory. The Excel sheet should contain columns for:
+    <li>📑 Add your Excel file (e.g., <code>data.xlsx</code>) to the project directory. The Excel sheet should contain columns for:
         <ul>
             <li>📞 WhatsApp Number</li>
             <li>🎂 Birthday (in <code>YYYY-MM-DD</code> format)</li>
@@ -63,21 +63,10 @@
     <li>🎉 The script will check for any matching birthdays in the Excel sheet. If a match is found, it will send the personalized birthday message to the respective WhatsApp contact.</li>
 </ol>
 
-<h2>🔧 Example</h2>
-<pre><code>
-import pandas as pd
-import xlrd
-import openpyxl
-import pyautogui
-import time
-import pywhatkit
-import datetime
 
-# Your script code here...
-</code></pre>
 
 <h2>🙌 Contributions</h2>
-<p>This project was created by <strong>[Your Name]</strong>. Feel free to fork this repository and make your own improvements. Pull requests are welcome!</p>
+<p>This project was created by <strong>Suryanath Tripathy</strong>. Feel free to fork this repository and make your own improvements. Pull requests are welcome!</p>
 
 <h2>📜 License</h2>
 <p>This project is licensed under the MIT License. See the LICENSE file for details.</p>
